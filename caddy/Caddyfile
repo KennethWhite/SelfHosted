@@ -8,27 +8,27 @@ pi.home.arpa {
     reverse_proxy 192.168.0.100
 }
 
-ha.lan{
+ha.lan {
     reverse_proxy 192.168.0.101:8123
 }
 
-ha.home.arpa{
+ha.home.arpa {
     reverse_proxy 192.168.0.101:8123
 }
 
-homeassistant.lan{
+homeassistant.lan {
     reverse_proxy 192.168.0.101:8123
 }
 
-homeassistant.home.arpa{
+homeassistant.home.arpa {
     reverse_proxy 192.168.0.101:8123
 }
 
-ntfy.lan{
+ntfy.lan {
     reverse_proxy 192.168.0.102
 }
 
-ntfy.home.arpa{
+ntfy.home.arpa {
     reverse_proxy 192.168.0.102
 }
 
@@ -36,14 +36,14 @@ kuma.lan {
     reverse_proxy 192.168.0.103:3001
 }
 
-kuma.home.arpa{
+kuma.home.arpa {
     reverse_proxy 192.168.0.103:3001
 }
 
-caddy.lan{
+caddy.lan {
     reverse_proxy 192.168.0.104
 }
 
-caddy.home.arpa{
+caddy.home.arpa {
     reverse_proxy 192.168.0.104
 }
