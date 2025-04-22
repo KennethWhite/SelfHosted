@@ -16,3 +16,5 @@
 192.168.0.104 ntfy.home.arpa
 192.168.0.104 kuma.local
 192.168.0.104 kuma.home.arpa
+192.168.0.104 caddy.local
+192.168.0.104 caddy.home.arpa
