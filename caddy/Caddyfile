@@ -1,6 +1,6 @@
 
 
-pi.lan:80 {
+pi.internal:80 {
     reverse_proxy 192.168.0.100
 }
 
@@ -8,7 +8,7 @@ pi.home.arpa:80 {
     reverse_proxy 192.168.0.100
 }
 
-ha.lan:80 {
+ha.internal:80 {
     reverse_proxy 192.168.0.101:8123
 }
 
@@ -16,7 +16,7 @@ ha.home.arpa:80 {
     reverse_proxy 192.168.0.101:8123
 }
 
-homeassistant.lan:80 {
+homeassistant.internal:80 {
     reverse_proxy 192.168.0.101:8123
 }
 
@@ -24,7 +24,7 @@ homeassistant.home.arpa:80 {
     reverse_proxy 192.168.0.101:8123
 }
 
-ntfy.lan:80 {
+ntfy.internal:80 {
     reverse_proxy 192.168.0.102
 }
 
@@ -32,10 +32,26 @@ ntfy.home.arpa:80 {
     reverse_proxy 192.168.0.102
 }
 
-kuma.lan:80 {
+kuma.internal:80 {
     reverse_proxy 192.168.0.103:3001
 }
 
 kuma.home.arpa:80 {
     reverse_proxy 192.168.0.103:3001
+}
+
+karakeep.internal:80 {
+    # reverse_proxy 192.168.0.103:3000
+}
+
+karakeep.home.arpa:80 {
+    # reverse_proxy 192.168.0.103:3000
+}
+
+beszel.internal:80 {
+    reverse_proxy 192.168.0.106:8090
+}
+
+beszel.home.arpa:80 {
+    reverse_proxy 192.168.0.106:8090
 }
