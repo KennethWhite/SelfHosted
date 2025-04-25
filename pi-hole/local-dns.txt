@@ -1,4 +1,4 @@
-192.168.0.100 pi.homa.arpa
+192.168.0.100 pi.home.arpa
 192.168.0.100 pi.internal
 192.168.0.5 legatus.home.arpa
 192.168.0.5 legatus.internal
