@@ -22,3 +22,9 @@
 192.168.0.10 karakeep.home.arpa
 192.168.0.10 beszel.internal
 192.168.0.10 beszel.home.arpa
+192.168.0.10 ai.internal
+192.168.0.10 ai.home.arpa
+192.168.0.10 karakeep.internal
+192.168.0.10 karakeep.home.arpa
+192.168.0.10 paperless.internal
+192.168.0.10 paperless.home.arpa
