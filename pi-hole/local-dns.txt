@@ -6,8 +6,8 @@
 192.168.0.6 orthos.internal
 192.168.0.1 router.home.arpa
 192.168.0.1 router.internal
-192.168.0.200 proxmox.home.arpa
-192.168.0.200 proxmox.internal
+192.168.0.10 proxmox.home.arpa
+192.168.0.10 proxmox.internal
 192.168.0.10 homeassistant.internal
 192.168.0.10 homeassistant.home.arpa
 192.168.0.10 ha.internal
@@ -24,7 +24,11 @@
 192.168.0.10 beszel.home.arpa
 192.168.0.10 ai.internal
 192.168.0.10 ai.home.arpa
+192.168.0.10 ollama.internal
+192.168.0.10 ollama.home.arpa
 192.168.0.10 karakeep.internal
 192.168.0.10 karakeep.home.arpa
 192.168.0.10 paperless.internal
 192.168.0.10 paperless.home.arpa
+192.168.0.10 paperless-ai.internal
+192.168.0.10 paperless-ai.home.arpa

@@ -99,8 +99,8 @@ services:
     volumes:
       - data:/usr/src/paperless/data
       - media:/usr/src/paperless/media
-      - ./export:/usr/src/paperless/export
-      - ./consume:/usr/src/paperless/consume
+      - /home/system/paperless/export:/usr/src/paperless/export
+      - /home/system/paperless/consume:/usr/src/paperless/consume
     env_file: paperless-docker-compose.env
     environment:
       PAPERLESS_REDIS: redis://redis:6379
@@ -120,7 +120,7 @@ services:
       - PGID=1000
       - PAPERLESS_AI_PORT=${PAPERLESS_AI_PORT:-3000}
     ports:
-      - "3000:${PAPERLESS_AI_PORT:-3000}"
+      - "5000:${PAPERLESS_AI_PORT:-3000}"
     volumes:
       - paperless-ai_data:/app/data
 
