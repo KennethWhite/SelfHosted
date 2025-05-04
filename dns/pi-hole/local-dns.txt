@@ -30,5 +30,5 @@
 192.168.0.10 paperless.home.arpa
 192.168.0.10 paperless-ai.internal
 192.168.0.10 paperless-ai.home.arpa
-192.168.0.10 maybe.internal
-192.168.0.10 maybe.home.arpa
+192.168.0.10 budget.internal
+192.168.0.10 budget.home.arpa
