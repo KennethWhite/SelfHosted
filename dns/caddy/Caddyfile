@@ -121,3 +121,10 @@ paperless-ai.internal:80 {
 paperless-ai.home.arpa:80 {
 	reverse_proxy 192.168.0.201:5000
 }
+maybe.internal:80 {
+	reverse_proxy 192.168.0.105:3000
+}
+
+maybe.home.arpa:80 {
+	reverse_proxy 192.168.0.105:3000
+}
