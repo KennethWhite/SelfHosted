@@ -1,0 +1,39 @@
+services:
+  zomboid-dedicated-server:
+    build:
+      context: .
+      dockerfile: docker/zomboid-dedicated-server.Dockerfile
+    image: "docker.io/renegademaster/zomboid-dedicated-server:latest"
+    container_name: zomboid-dedicated-server
+    restart: "no"
+    environment:
+      - "ADMIN_PASSWORD=fortitude2181"
+      - "ADMIN_USERNAME=superuser"
+      - "AUTOSAVE_INTERVAL=15"
+      - "BIND_IP=0.0.0.0"
+      - "DEFAULT_PORT=16261"
+      - "GAME_VERSION=public"
+      - "GC_CONFIG=ZGC"
+      - "MAP_NAMES=Muldraugh, KY"
+      - "MAX_PLAYERS=16"
+      - "MAX_RAM=8192m"
+      - "MOD_NAMES=tsarslib;MoreDescriptionForTraits42;BB_CommonSense;noirrsling;rSemiTruck;RotatorsLib;B42ModOptions;HTowTruckFix;BetterSortCC;NestedContainer01;ReplaceBandage;GidOrganizedStorage;SkillRecoveryJournal;"
+      - "MOD_WORKSHOP_IDS=2392709985;2685168362;2875848298;2786499395;2759339330;2732594572;3386860561;2778456849;2313387159;2946221823;2944344655;1143998415;2503622437;"
+      - "PAUSE_ON_EMPTY=true"
+      - "PUBLIC_SERVER=true"
+      - "RCON_PASSWORD=bckz"
+      - "RCON_PORT=27015"
+      - "SERVER_NAME=BDS Crew"
+      - "SERVER_PASSWORD=bckz"
+      - "STEAM_VAC=false"
+      - "UDP_PORT=16262"
+      - "USE_STEAM=true"
+      - "TZ=UTC"
+    ports:
+      - "16262:16262/udp"
+      - "16261:16261/udp"
+      - "27015:27015/tcp"
+
+    volumes:
+      - ./ZomboidDedicatedServer:/home/steam/ZomboidDedicatedServer
+      - ./ZomboidConfig:/home/steam/Zomboid/
