@@ -26,8 +26,6 @@
 192.168.0.10 ai.home.arpa
 192.168.0.10 ollama.internal
 192.168.0.10 ollama.home.arpa
-192.168.0.10 karakeep.internal
-192.168.0.10 karakeep.home.arpa
 192.168.0.10 paperless.internal
 192.168.0.10 paperless.home.arpa
 192.168.0.10 paperless-ai.internal
