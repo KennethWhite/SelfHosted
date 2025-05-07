@@ -66,12 +66,20 @@ ntfy.home.arpa:80 {
 	reverse_proxy 192.168.0.102
 }
 
+ntfy-pi.home.arpa:80 {
+	reverse_proxy 192.168.0.100:1005
+}
+
 kuma.internal:80 {
 	reverse_proxy 192.168.0.103:3001
 }
 
 kuma.home.arpa:80 {
 	reverse_proxy 192.168.0.103:3001
+}
+
+kuma-pi.home.arpa:80 {
+	reverse_proxy 192.168.0.100:3001
 }
 
 beszel.internal:80 {
@@ -120,4 +128,11 @@ paperless-ai.internal:80 {
 
 paperless-ai.home.arpa:80 {
 	reverse_proxy 192.168.0.201:5000
+}
+budget.internal:80 {
+	reverse_proxy 192.168.0.105:5006
+}
+
+budget.home.arpa:80 {
+	reverse_proxy 192.168.0.105:5006
 }
