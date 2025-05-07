@@ -14,8 +14,10 @@
 192.168.0.10 ha.home.arpa
 192.168.0.10 ntfy.internal
 192.168.0.10 ntfy.home.arpa
+192.168.0.10 ntfy-pi.home.arpa
 192.168.0.10 kuma.internal
 192.168.0.10 kuma.home.arpa
+192.168.0.10 kuma-pi.home.arpa
 192.168.0.10 caddy.internal
 192.168.0.10 caddy.home.arpa
 192.168.0.10 karakeep.internal
