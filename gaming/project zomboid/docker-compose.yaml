@@ -5,7 +5,7 @@ services:
       dockerfile: docker/zomboid-dedicated-server.Dockerfile
     image: "docker.io/renegademaster/zomboid-dedicated-server:latest"
     container_name: zomboid-dedicated-server
-    restart: "no"
+    restart: "always"
     environment:
       - "ADMIN_PASSWORD=fortitude2181"
       - "ADMIN_USERNAME=superuser"
