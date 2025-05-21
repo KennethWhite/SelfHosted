@@ -1,3 +1,9 @@
+address=/internal/192.168.0.10
+address=/home.arpa/192.168.0.10
+address=/bastionofchaos.com/192.168.0.10
+
+
+# Manual like a fool
 192.168.0.100 pi.home.arpa
 192.168.0.100 pi.internal
 192.168.0.5 legatus.home.arpa
