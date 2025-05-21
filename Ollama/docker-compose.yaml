@@ -42,7 +42,16 @@ services:
     environment:
       MEILI_ADDR: http://meilisearch:7700
       BROWSER_WEB_URL: http://chrome:9222
-      # OPENAI_API_KEY: ...
+      NEXTAUTH_URL=https://karakeep.home.arpa
+      OAUTH_CLIENT_ID=<Client ID from authentik>
+      OAUTH_CLIENT_SECRET=<Client secret from authentik>
+      OAUTH_WELLKNOWN_URL=https://authentik.company/application/o/karakeep/.well-known/openid-configuration
+      OAUTH_PROVIDER_NAME=authentik
+      OAUTH_ALLOW_DANGEROUS_EMAIL_ACCOUNT_LINKING=true
+      # Optional: You can add this if you only want to allow login with Authentik
+      # DISABLE_PASSWORD_AUTH=true
+      # Optional but highly recommended:
+      # DISABLE_SIGNUPS=true
 
       # You almost never want to change the value of the DATA_DIR variable.
       # If you want to mount a custom directory, change the volume mapping above instead.
